@@ -43,7 +43,7 @@ div h1 {
     padding: 3px;
     border-radius: 22px;
     z-index: -1;
-    background: conic-gradient(from var(--angle), red, blue, yellow, green);
+    background: conic-gradient(from var(--angle), red, blue, yellow, green,red);
     animation: spin 1s infinite linear;
 }
 

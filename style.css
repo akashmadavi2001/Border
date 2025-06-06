@@ -43,16 +43,13 @@ div h1 {
     padding: 3px;
     border-radius: 22px;
     z-index: -1;
+    --angle: 0deg;
     background: conic-gradient(from var(--angle), red, blue, yellow, green,red);
     animation: spin 1s infinite linear;
 }
 
 .content::before {
     filter: blur(20px);
-}
-
-:root {
-    --angle: 0deg;
 }
 
 @property --angle {
